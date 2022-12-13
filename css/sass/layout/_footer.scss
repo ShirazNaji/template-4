@@ -1,0 +1,149 @@
+.footer{
+    
+    
+    
+    background-color: #e2e2e2;
+    overflow-x: hidden;
+    padding-top: 30px;
+   
+    margin-top: 50px;
+    
+    
+    .section-title{
+        
+        color: #444;
+        font-weight: normal;
+    }
+    
+    
+    
+    .gallery , .info , .contact{
+        float: $float-left;
+        
+    }
+    
+    
+    .gallery {
+        width: 50%;
+        
+        
+        .gallery-box{
+            
+            overflow: hidden;
+            margin-bottom: 20px;
+            
+            img {
+                
+                width: 200px;
+                height:200px;
+                float: $float-left;
+                
+            }
+            
+            .text{
+                float: $float-left;
+                margin-right: 15px;
+                margin-left: 15px;
+                width: calc(100% - 230px);
+                
+                
+                
+                h4{
+                    color: $redColor;
+                    
+                    
+                    
+                }
+                
+                p{
+                    
+                    color: #999;
+                    line-height: 1.9;
+                    margin-top: 5px;
+                    
+                    
+                    
+                }
+                
+            }
+            
+            
+        }
+        
+        
+        
+        
+    }
+    
+    
+    .info{
+        width: 25%;
+        
+        ul{
+            color: #999;
+            line-height: 1.8;
+            
+            li{
+                
+                
+                span{
+                    color: $redColor;
+                }
+            }
+        }
+        
+        
+        h4{
+            color: #999;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        
+        p{
+            color: #888;
+            margin-top: 8px;
+        }
+    }
+    
+    .contact{
+        
+        width:25%;
+        
+        input[type="text"],input[type="email"],textarea{
+           border: 1px solid #888;
+            padding: 10px;
+            margin-bottom: 5px;
+            width: 100%;
+        }
+        
+        textarea{
+            height: 140px;
+        
+        
+        }
+    
+    
+    }
+    
+    
+    .copyright{
+        
+        border-top: 1px solid #999 ;
+        padding: 25px 0;
+        color: #999;
+        .copy-text , .copy-author{
+            float: $float-left;
+            width: 50%;
+            
+        }
+        
+        .copy-author{
+        
+            text-align: $text-right;
+        
+        }
+        
+        
+    }
+    
+}

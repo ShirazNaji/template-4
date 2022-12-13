@@ -1,0 +1,260 @@
+.slider{
+     border: 2px solid transparent;
+    blockquote{
+        
+        font :{
+        size: 20px;
+        style: italic;
+        weight: bold;
+        family: Tahoma,Arial;
+            
+        }
+        
+        line-height: 1.7;
+        text-align: center;
+        color: #5e5e5e;
+        width: 80%;
+        margin: 30px auto;
+        
+    }
+    
+    img{
+        max-width: 100%;
+         
+        
+        
+    }
+    
+    .bullets{
+       
+        text-align: center;
+        
+        li{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #d1d1d1;
+            border-radius: 50%;
+            border: 2px solid #d1d1d1;
+            cursor: pointer;
+            
+            &.active , &:hover{
+                border: 2px solid #333;
+                background-color: white;
+            }
+
+        }
+    }
+}
+
+
+/// serveces
+
+.services{
+    
+
+.sservice-box{
+    
+   
+    
+      @media (min-width:992px ){
+        float: $float-left;
+        width: (100% / 3);
+         &:not(:last-of-type){
+        padding-right: 20px;
+        
+    }
+          
+    }
+    
+     @media(max-width:767px){
+         width: 100%;
+         float: none;
+         
+         i{
+             display: block;
+             margin-bottom: 10px;
+         }     
+                 
+                }
+        
+            
+    
+    
+    .service-title{
+        color: #666;
+        i{
+            font-size:30px;
+            position :relative;
+            top:2px;
+            
+            
+        }
+    }
+    
+    .service-desc{
+        color: #777;
+        line-height: 1.5;
+        
+    }
+    .service-link{
+        color: $redColor;
+        text-decoration: none;
+        
+    }
+    
+}
+    
+}
+
+
+
+
+
+.ourplayers{
+    
+    
+    
+    
+    .player-box{
+         margin-bottom: 20px;
+        
+        
+    
+     @media(max-width:767px){
+            float: $float-left;
+            width: (100% );
+           
+               
+        
+        }
+        
+        @media (min-width:768px ){
+            float: $float-left;
+           
+            width: (100% /2);
+            
+            
+            &:not(:last-of-type){
+                padding-right: 20px;
+
+            }
+          
+    }
+        
+        @media (min-width:992px ){
+            float: $float-left;
+            
+            width: (100% /4);
+            &:not(:last-of-type){
+                padding-right: 20px;
+
+            }
+          
+    }
+       
+       
+        
+        
+        
+        img{
+            width: 200px;
+            height: 200px;
+            
+        }
+        
+    
+    
+        .player-title{
+            
+            color: #666;
+            
+            span{
+                color: black;
+
+
+            }
+        }
+
+        .player-desc{
+            color: #777;
+            line-height: 1.5;
+
+        }
+        .player-link{
+            color: $redColor;
+            text-decoration: none;
+
+       }
+        
+        
+    
+    }
+    
+    
+    
+}
+
+
+
+.images{
+
+        .images-box{
+
+                float: $float-left;
+                width: (100% - 380) / 3;
+            
+                &:not(:last-of-type){
+                    margin-right: 10px;
+
+                }
+            
+        
+        img{
+            width: 370px;
+            height: 200px;
+            border: 1px solid black;
+            min-width: 100%;
+            
+        }
+            
+            
+        @media(max-width:767px){
+          margin:5px auto;
+                 
+                }
+
+
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

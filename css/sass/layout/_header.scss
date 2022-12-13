@@ -1,0 +1,144 @@
+.header{
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid $gryColor;
+    
+    
+    .logo{
+        
+        position: relative;
+        h1{
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+        
+        
+        @media(min-width:768px){
+            width: 100%;
+            float: none;
+            text-align: center;
+    }
+        
+         @media(min-width:992px){
+           width: 30%;
+           float: $float-left;
+             text-align: $text-left;
+          
+               
+    }
+    
+    }
+    
+    
+    
+    .navbar{
+       
+        float: $float-left;
+        background-color: $redColor;
+        border-radius: 15px;
+         overflow: hidden;
+        
+        
+        
+        
+        
+        @media(min-width:768px){
+            width:100%;
+            float: none;
+            display: block;
+            
+    }
+        
+         @media(min-width:992px){
+           width: 70%;
+           float: $float-left;
+              margin-top: 1em;
+            display: block;
+               
+    }
+        
+    @media(max-width:767px){
+           display: none;
+           border-radius: 0;
+             
+           
+            
+    }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        li{
+            width: 20%;
+            float: $float-left;
+            font-size: 18px;
+            text-align: center;
+            
+            
+            
+             @media(max-width:767px){
+                      
+                   float: none;
+                   display: block;
+                }
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            a{
+                display: block;
+                padding: 20px 10px;
+                color: white;
+                text-decoration: none;
+                
+                &:hover{
+                    color: #ddd;
+                }
+            }
+            
+            
+            
+        
+            
+        }
+        
+        
+        
+        
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+}
